@@ -9,12 +9,7 @@
     "compile": "tsc --noEmit",
     "barrel": "barrelsby --directory src --delete",
     "build": "tsc",
-    "dev": "yarn concurrently -n build,test -c magenta,cyan  \"yarn build -w\" \"yarn test\"",
-    "test": "yarn unit",
-    "unit": "jest -c ./jest.config.js",
-    "pretty": "prettier --write ./src/**/*.{ts,tsx}",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "dev": "yarn concurrently -n build,test -c magenta,cyan  \"yarn build -w\" \"yarn test\""
   },
   "devDependencies": {
     
